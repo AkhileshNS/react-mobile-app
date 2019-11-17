@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'mobx-react';
 
+import 'onsenui/css/onsenui.css';
+import 'onsenui/css/onsen-css-components.css';
+
 import App from 'App/App';
 import * as serviceWorker from './serviceWorker';
 import * as stores from './stores';

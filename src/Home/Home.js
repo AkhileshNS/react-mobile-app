@@ -1,10 +1,15 @@
 import React from 'react';
-import {HomeContainer} from './Home.styles';
+import {Page, Toolbar} from 'react-onsenui';
+
+import {Title} from './Home.styles';
 
 const Home = () => (
-  <HomeContainer>
+  <Page
+    renderToolbar={() => <Toolbar>
+      <Title className="left">Welcome to Works Maybe</Title>
+    </Toolbar>}>
     <p>Atleast this works hopefully</p>
-  </HomeContainer>
+  </Page>
 );
 
 export default Home;

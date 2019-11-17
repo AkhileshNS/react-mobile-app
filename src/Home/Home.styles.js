@@ -1,7 +1,5 @@
 import styled from '@emotion/styled';
 
-export const HomeContainer = styled.div`
-  .header {
-    --padding-start: 8px;
-  }
+export const Title = styled.div`
+  padding-left: 16px;
 `;
