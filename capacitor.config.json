@@ -1,0 +1,8 @@
+{
+  "appId": "com.izalus.demoapp",
+  "appName": "DemoApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
