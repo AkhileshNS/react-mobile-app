@@ -8,4 +8,4 @@ decorate(appStore, {
 
 });
 
-export default appStore;
+export default new appStore();
